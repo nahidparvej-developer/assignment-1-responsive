@@ -286,27 +286,20 @@ footer{
         flex-direction: column;
     }
   
-    .searchbar{
-       margin-left: px;
+    .in{
+      width:245px;
     }
     .btn-last{
-        margin-top: 20px;
+        padding: 8px 12px;
+        margin-top: 8px;
+      
     }
     .img-b, .img-c{
         margin-top: 30px;
       
     }
-    .sec{
-        /* align-items: 100%; */
-    }
-    
+
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
-       .footer , .last-sec{
-        flex-direction: column;
-       }
-       .section-4img{
-        grid-template-columns: repeat(2,1fr);
-      }
 }
