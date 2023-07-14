@@ -288,18 +288,32 @@ footer{
   
   
     .btn-last{
-        width: fit-content;
+       
         padding: 8px 12px;
         margin-top: 8px;
+   margin-left: 20px;
       
     }
-    .img-b, .img-c{
-        margin-top: 30px;
+    .in{
+        width:245px;
+    
+    }
+    .img-b, .img-c ,.profile{
+        margin-top: 50px;
       
     }
 
     .bonus-1{
          width: 335px;
+    }
+    .profile{
+        width: 200px;
+        padding-right: 10px;
+    }
+    
+    .hot{
+        background-size:200px;
+        background: fixed;
     }
 
 }
