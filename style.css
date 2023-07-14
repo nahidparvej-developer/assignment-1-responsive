@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: rgb(248, 229, 238);
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 110px 115px 0px 200px;
+}
+
+.profile{
+    width:400px;
+}
+
+.banner-text{
+    max-width: 500px;
+
+}
+.text-1{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.text-2{
+ 
+    color: rgb(57, 57, 58);
+}
+
+
+.btn-1{
+    background:#E55473;
+    border-radius: 10px;
+    color: rgb(245, 238, 238);
+    padding: 15px 40px;
+    cursor: pointer;
+    border: none;   
+    font-size: 20px;
+}
+.flower-price{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.bonus{
+    display: flex;
+    margin-top: 100px;
+    gap: 50px;
+    justify-content: center;
+   
+}
+
+.bonus-1{
+    overflow: hidden;
+    box-shadow: 10px 10px 30px gray;
+    height: 450px;
+}
+
+.bonus-1 img{
+	width: 335px;
+	height: 300px;
+    padding-right: 20px;
+}
+#doller{
+    text-align: center;
+    margin-top: 15px;
+}
+#price{
+    margin-top:-10px;
+    text-align: center;
+}
+.btn-bonus{
+ margin-left: 120px;
+ margin-top: 20px;
+ padding: 8px 16px;
+ background:#E55473;
+ border-radius: 10px;
+ color: rgb(255, 255, 255);
+ cursor: pointer;
+ border: none;
+     
+
+}
+
+/* main  */
+
+
+main{
+    max-width: 1100px;
+     margin: auto;
+}
+.text-head{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.text-heading{
+    font-size:30px;
+}
+
+.text-description{
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(57, 57, 58) ;
+}
+
+.images{
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+ 
+}
+.img-a{
+    width: 350px;
+    height: 400px;
+    border-radius: 250px 250px 0px 0px;
+    background-color:  rgba(167, 33, 98, 0.15);
+   
+}
+.img-a img{
+   padding: 10px 30px;
+   height: 390px;
+}
+
+
+.img-b{
+    width: 350px;
+    height: 400px;
+    border-radius: 250px 250px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.15)
+  
+}
+.img-b img{
+    padding: 40px 20px;
+    height: 330px;
+ }
+
+
+
+.img-c{
+    width: 350px;
+    height: 400px;
+    background-color:  rgba(71, 125, 17, 0.15);
+    border-radius: 250px 250px 0px 0px;
+  
+  
+}
+
+.img-c img{
+    padding: 10px 30px;
+    height: 390px;
+ }
+
+
+#name{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.hot{
+   display: flex;
+   align-items: center;
+   background-color: rgba(229, 84, 115, 0.05);
+   padding:110px 210px ;
+   margin:150px -130px;
+   text-align: center;
+   justify-content: space-between;
+
+   
+}
+#hot-title{
+    font-size:26px;
+}
+
+.text-description{
+    color:rgb(57, 57, 58) ;
+}
+span{
+    color: red;
+}
+
+.hot img{
+    width:210px;
+    height: 290px;
+   
+}
+
+
+
+.section-4img{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    padding:0px  20px ;
+    
+   
+  
+
+}
+
+.sec img{
+    width: 250px;
+    height: 300px;
+
+   
+}
+
+
+.last-sec{
+    background-image: url('img/lastbr.png');
+    background-repeat: no-repeat;
+    height: 350px;
+    margin: 100px 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+  
+
+  
+ 
+}
+
+.section-last-head{
+ color: black;
+ font-size: xx-large;
+ padding-top: 100px;
+}
+
+.last-section-describtion{
+    color: rgb(57, 57, 58);
+}
+
+
+.searchbar{
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.in{
+width: 400px;
+height: 45px;
+margin-right: 25px;
+border: 1px solid white;
+border-radius: 5px;
+padding-left: 10px;
+}
+.btn-last{
+    background:#E55473;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+  
+}
+
+
+
+
+/* footer  */
+
+footer{
+ background-color: black; 
+ height: 290px;  
+ text-align: center;
+ color: aliceblue;
+ padding-top: 135px;
+ margin-top: 100px;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    .footer, .last-sec, .section-4img, .hot , .images, .bonus , .sec{
+        flex-direction: column;
+    }
+  
+    .searchbar{
+       margin-left: px;
+    }
+    .btn-last{
+        margin-top: 20px;
+    }
+    .img-b, .img-c{
+        margin-top: 30px;
+      
+    }
+    .sec{
+        /* align-items: 100%; */
+    }
+    
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+       .footer , .last-sec{
+        flex-direction: column;
+       }
+       .section-4img{
+        grid-template-columns: repeat(2,1fr);
+      }
+}
