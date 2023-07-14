@@ -297,6 +297,10 @@ footer{
       
     }
 
+    .bonus-1{
+         width: 335px;
+    }
+
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
