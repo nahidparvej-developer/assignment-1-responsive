@@ -282,13 +282,11 @@ footer{
 
 
 @media screen and (max-width:576px){
-    .footer, .last-sec, .section-4img, .hot , .images, .bonus , .sec{
+    .footer, .last-sec, .section-4img, .hot , .images, .bonus , .banner{
         flex-direction: column;
     }
   
-    .in{
-      width:245px;
-    }
+  
     .btn-last{
         padding: 8px 12px;
         margin-top: 8px;
